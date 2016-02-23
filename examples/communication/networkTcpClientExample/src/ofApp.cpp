@@ -4,7 +4,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofSetBackgroundColor(230, 230, 230);
+    ofSetBackgroundColor(230);
 
     // our send and recieve strings
 	msgTx	= "";
@@ -45,7 +45,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-	ofSetColor(20, 20, 20);
+	ofSetColor(20);
 	ofDrawBitmapString("openFrameworks TCP Send Example", 15, 30);
 
     if(tcpClient.isConnected()){
